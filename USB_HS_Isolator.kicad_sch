@@ -36,7 +36,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "my_connector:USB_A"
 				(at 3.81 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1690,6 +1690,183 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "my_ic:TAR5SB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at -3.81 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TAR5SB"
+				(at 3.81 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "my_ic:SOT-23-5"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TAR5SB_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TAR5SB_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "NP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4044,6 +4221,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "my_supply:+1V8D"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+1V8D"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8D\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+1V8D_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8D_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "my_supply:+3V3"
 			(power global)
 			(pin_numbers
@@ -4575,7 +4891,7 @@
 		(uuid "20bbc622-998e-4dd8-a0d6-9cd9a2f54196")
 	)
 	(junction
-		(at 220.98 63.5)
+		(at 223.52 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "246a29e1-2982-4104-9ff0-bea7fea1bbac")
@@ -4597,12 +4913,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40178a97-1917-43ef-b786-57b60bc212f4")
-	)
-	(junction
-		(at 104.14 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42c20ee8-4f72-4eae-96ff-29de195b377b")
 	)
 	(junction
 		(at 106.68 124.46)
@@ -4773,6 +5083,18 @@
 		(uuid "c3a7d0b1-52ce-4506-b610-44fea0b76c70")
 	)
 	(junction
+		(at 104.14 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c93a02cd-448c-4b47-b4f1-928724b9e606")
+	)
+	(junction
+		(at 104.14 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdf4d91a-6ff4-4813-b21c-2ca17a539ef6")
+	)
+	(junction
 		(at 185.42 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4795,6 +5117,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e295d499-b866-4f8c-bccf-3bc7e8d445da")
+	)
+	(junction
+		(at 60.96 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed819d21-b820-409d-a690-111d12561890")
 	)
 	(junction
 		(at 142.24 45.72)
@@ -4986,6 +5314,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 78.74) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150693a8-3ed5-463d-8a99-90478ad6218f")
+	)
+	(wire
+		(pts
 			(xy 81.28 104.14) (xy 86.36 104.14)
 		)
 		(stroke
@@ -5126,6 +5464,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 91.44) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280ab9b1-c1c6-40aa-9e69-13c5b3f42905")
+	)
+	(wire
+		(pts
 			(xy 99.06 132.08) (xy 99.06 134.62)
 		)
 		(stroke
@@ -5156,16 +5504,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 78.74) (xy 104.14 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33d22a16-feac-42f9-a90e-058bc187f0f9")
-	)
-	(wire
-		(pts
 			(xy 120.65 48.26) (xy 120.65 45.72)
 		)
 		(stroke
@@ -5186,13 +5524,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 91.44) (xy 109.22 81.28)
+			(xy 81.28 129.54) (xy 81.28 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a69a921-5307-412e-ad53-e66bd99845f8")
+		(uuid "39de370a-e77c-4af1-8a98-a506fa5912cf")
 	)
 	(wire
 		(pts
@@ -5206,6 +5544,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 132.08) (xy 63.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40bb3c0c-e7aa-4839-805f-4bd821d7fc62")
+	)
+	(wire
+		(pts
 			(xy 228.6 45.72) (xy 231.14 45.72)
 		)
 		(stroke
@@ -5213,6 +5561,16 @@
 			(type default)
 		)
 		(uuid "4117b929-fd36-460d-87c3-e7b27c50bba0")
+	)
+	(wire
+		(pts
+			(xy 218.44 63.5) (xy 223.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f5d5f3-dd6f-426a-929f-5ac8ad39c218")
 	)
 	(wire
 		(pts
@@ -5536,6 +5894,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 93.98) (xy 104.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c20703c-0d59-4341-9d7d-6c20eb14d49f")
+	)
+	(wire
+		(pts
 			(xy 147.32 76.2) (xy 147.32 81.28)
 		)
 		(stroke
@@ -5543,6 +5911,16 @@
 			(type default)
 		)
 		(uuid "7c5989d9-5f9d-41a4-8de4-f905cebe20d6")
+	)
+	(wire
+		(pts
+			(xy 78.74 132.08) (xy 81.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa0a158-9659-421d-8bfa-79814c03713c")
 	)
 	(wire
 		(pts
@@ -5586,17 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 91.44) (xy 111.76 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894b4e1c-dc1b-402a-a493-5d1a9d7c62f3")
-	)
-	(wire
-		(pts
-			(xy 86.36 81.28) (xy 104.14 81.28)
+			(xy 86.36 81.28) (xy 109.22 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5613,6 +5981,16 @@
 			(type default)
 		)
 		(uuid "8c96dc11-48ab-4342-91ba-e37eb355ad26")
+	)
+	(wire
+		(pts
+			(xy 63.5 134.62) (xy 60.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cac0b41-09fe-4f36-9051-1842300e05da")
 	)
 	(wire
 		(pts
@@ -5703,6 +6081,16 @@
 			(type default)
 		)
 		(uuid "9ecbe8a9-a90b-4e2a-99ef-c61f50ee13fd")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 111.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f652858-0a11-41b3-b553-f203ff53bb5e")
 	)
 	(wire
 		(pts
@@ -5816,7 +6204,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 63.5) (xy 220.98 66.04)
+			(xy 223.52 63.5) (xy 223.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5866,6 +6254,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 134.62) (xy 60.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99455f2-f2d5-4a1a-8e1e-167c0fc3b104")
+	)
+	(wire
+		(pts
 			(xy 142.24 88.9) (xy 149.86 88.9)
 		)
 		(stroke
@@ -5906,13 +6304,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 88.9) (xy 104.14 106.68)
+			(xy 104.14 88.9) (xy 104.14 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bcf0252c-433d-4fa8-aa6f-cdb87c588bf9")
+	)
+	(wire
+		(pts
+			(xy 60.96 129.54) (xy 60.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee3248e-c6ff-432f-a5c5-5d7e72a2f16e")
 	)
 	(wire
 		(pts
@@ -5956,23 +6364,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 83.82) (xy 106.68 83.82)
+			(xy 101.6 83.82) (xy 106.68 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c46080cc-530a-4d7b-b659-5156261f4279")
-	)
-	(wire
-		(pts
-			(xy 218.44 63.5) (xy 220.98 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ff0ae6-6478-458a-b51b-e000d2404096")
 	)
 	(wire
 		(pts
@@ -6186,6 +6584,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 93.98) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e361c779-3907-4bef-9ade-60237242303f")
+	)
+	(wire
+		(pts
 			(xy 142.24 96.52) (xy 172.72 96.52)
 		)
 		(stroke
@@ -6203,16 +6611,6 @@
 			(type default)
 		)
 		(uuid "e71d7d1c-b887-489b-b74d-ebceb987b3ac")
-	)
-	(wire
-		(pts
-			(xy 104.14 81.28) (xy 109.22 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e78a188b-4fdd-4c07-9e75-cbcd8d0b0af5")
 	)
 	(wire
 		(pts
@@ -6393,6 +6791,16 @@
 			(justify left bottom)
 		)
 		(uuid "0c03e2eb-fe3e-4616-ac25-3ec8796dc4b5")
+	)
+	(label "VBUS1"
+		(at 60.96 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "181826cc-9503-4fdc-bc4b-b0fa8dd1d0b5")
 	)
 	(label "PGND"
 		(at 144.78 53.34 0)
@@ -6630,6 +7038,94 @@
 			(project "USB_HS_Isolator"
 				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_ic:TPS7A20")
+		(at 71.12 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03ac4779-e18f-48cb-b13d-ecff4cedfb35")
+		(property "Reference" "IC6"
+			(at 67.31 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.8V"
+			(at 74.295 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_ic:SOT-23-5"
+			(at 71.12 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c5c0dd37-6df5-4ad3-969d-7baf1ad6df54")
+		)
+		(pin "1"
+			(uuid "d7d992dc-8bfa-4417-a338-f5c093e41025")
+		)
+		(pin "4"
+			(uuid "ec9fb0fe-0844-4b72-a321-41d62318794f")
+		)
+		(pin "5"
+			(uuid "25866e25-9d24-4070-a3a9-10b473765770")
+		)
+		(pin "2"
+			(uuid "c5c5fb9f-880d-425c-b1f1-b3a8fe24d24b")
+		)
+		(instances
+			(project "USB_HS_Isolator"
+				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -6961,8 +7457,8 @@
 		)
 	)
 	(symbol
-		(lib_id "my_supply:DGND")
-		(at 104.14 73.66 180)
+		(lib_id "my_supply:+1V8D")
+		(at 81.28 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6970,9 +7466,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "16f27a15-6eab-4883-a9c1-8b5eddbb8407")
-		(property "Reference" "#PWR017"
-			(at 104.14 67.31 0)
+		(uuid "16bc66b3-2015-4852-b248-b84f8d3bd113")
+		(property "Reference" "#PWR045"
+			(at 81.28 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6982,9 +7478,8 @@
 				)
 			)
 		)
-		(property "Value" "DGND"
-			(at 104.14 69.85 0)
-			(hide yes)
+		(property "Value" "+1V8D"
+			(at 81.28 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6994,7 +7489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 73.66 0)
+			(at 81.28 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7005,7 +7500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 73.66 0)
+			(at 81.28 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,8 +7510,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"+1V8D\""
+			(at 81.28 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7027,12 +7522,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "035c1774-05db-4336-9f7a-0ce3c361d396")
+			(uuid "970deb31-4491-4699-8c0c-7c499c0651c0")
 		)
 		(instances
 			(project "USB_HS_Isolator"
 				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
-					(reference "#PWR017")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7367,7 +7862,7 @@
 	)
 	(symbol
 		(lib_id "my_supply:GND")
-		(at 220.98 71.12 0)
+		(at 223.52 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7377,7 +7872,7 @@
 		(dnp no)
 		(uuid "225633d9-655d-4371-8ef9-d54af0a294b5")
 		(property "Reference" "#PWR032"
-			(at 220.98 77.47 0)
+			(at 223.52 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7388,7 +7883,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 74.93 0)
+			(at 223.52 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7399,7 +7894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 71.12 0)
+			(at 223.52 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +7905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 71.12 0)
+			(at 223.52 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +7916,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 71.12 0)
+			(at 223.52 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7844,6 +8339,83 @@
 		)
 	)
 	(symbol
+		(lib_id "my_supply:+1V8D")
+		(at 104.14 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3295b0a2-4917-4374-9809-2acba6ab390e")
+		(property "Reference" "#PWR017"
+			(at 104.14 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8D"
+			(at 104.14 75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8D\""
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca7406e4-194a-487e-a93f-d4ecd2d5af38")
+		)
+		(instances
+			(project "USB_HS_Isolator"
+				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "my_rcl:C")
 		(at 116.84 38.1 0)
 		(mirror y)
@@ -8005,7 +8577,7 @@
 	)
 	(symbol
 		(lib_id "my_rcl:C")
-		(at 101.6 83.82 90)
+		(at 99.06 83.82 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8016,7 +8588,7 @@
 		(dnp no)
 		(uuid "34113f01-aa7e-419f-a0c1-dfea33048d0f")
 		(property "Reference" "C1"
-			(at 99.568 84.328 0)
+			(at 97.028 84.328 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8027,7 +8599,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 103.632 84.328 0)
+			(at 101.092 84.328 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8038,7 +8610,7 @@
 			)
 		)
 		(property "Footprint" "my_rcl:C_1608"
-			(at 105.41 84.7852 0)
+			(at 102.87 84.7852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8049,7 +8621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 83.82 0)
+			(at 99.06 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8060,7 +8632,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 83.82 0)
+			(at 99.06 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8729,10 +9301,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9786f11e-9ffd-4a86-824c-0e2198116312")
+			(uuid "9786f11e-9ffd-4a86-824c-0e2198116313")
 		)
 		(pin "1"
-			(uuid "a57b6f55-cd3b-4d28-93b3-0535fb155489")
+			(uuid "a57b6f55-cd3b-4d28-93b3-0535fb15548a")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -8915,7 +9487,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "91a2adfc-fd48-4ba8-b7a8-201d312aae60")
+			(uuid "91a2adfc-fd48-4ba8-b7a8-201d312aae61")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -9071,7 +9643,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a517e88-3aa5-466c-867c-7e28e64efc3e")
+			(uuid "1a517e88-3aa5-466c-867c-7e28e64efc3f")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -9084,7 +9656,7 @@
 	)
 	(symbol
 		(lib_id "my_rcl:C")
-		(at 220.98 68.58 0)
+		(at 223.52 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9094,7 +9666,7 @@
 		(dnp no)
 		(uuid "54e3efc5-fb1a-43bf-a686-0e79d4a9d28f")
 		(property "Reference" "C15"
-			(at 221.488 66.548 0)
+			(at 224.028 66.548 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9105,7 +9677,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 221.488 70.612 0)
+			(at 224.028 70.612 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9116,7 +9688,7 @@
 			)
 		)
 		(property "Footprint" "my_rcl:C_2012"
-			(at 221.9452 72.39 0)
+			(at 224.4852 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9127,7 +9699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 68.58 0)
+			(at 223.52 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9138,7 +9710,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 68.58 0)
+			(at 223.52 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9319,87 +9891,6 @@
 			(project "USB_HS_Isolator"
 				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "my_rcl:C")
-		(at 104.14 76.2 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ae85be5-c5aa-49b9-bcbf-bb9b521df758")
-		(property "Reference" "C8"
-			(at 103.632 78.232 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 103.632 74.168 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "my_rcl:C_1608"
-			(at 103.1748 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2a61ade3-a9e3-421c-b6f0-65a6ff2fb168")
-		)
-		(pin "1"
-			(uuid "07fb9913-e05c-4c1d-90bb-6306f823f214")
-		)
-		(instances
-			(project "USB_HS_Isolator"
-				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9978,10 +10469,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9786f11e-9ffd-4a86-824c-0e2198116312")
+			(uuid "9786f11e-9ffd-4a86-824c-0e2198116314")
 		)
 		(pin "1"
-			(uuid "a57b6f55-cd3b-4d28-93b3-0535fb155489")
+			(uuid "a57b6f55-cd3b-4d28-93b3-0535fb15548b")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -10622,7 +11113,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6896754b-326d-4816-a04c-9f66bd0a7076")
+			(uuid "6896754b-326d-4816-a04c-9f66bd0a7077")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -11657,10 +12148,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "866f2312-4521-4283-9c48-06c48df531a3")
+			(uuid "866f2312-4521-4283-9c48-06c48df531a4")
 		)
 		(pin "2"
-			(uuid "cd543505-3613-4f8a-8654-b042363887ed")
+			(uuid "cd543505-3613-4f8a-8654-b042363887ee")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -11816,7 +12307,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "df56853b-1a44-413a-baa3-76b2a83e0ebb")
+			(uuid "df56853b-1a44-413a-baa3-76b2a83e0ebc")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -12013,6 +12504,84 @@
 		)
 	)
 	(symbol
+		(lib_id "my_supply:DGND")
+		(at 96.52 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c6cee9f-fa4c-4c62-ad01-62453fbdc40e")
+		(property "Reference" "#PWR046"
+			(at 90.17 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DGND"
+			(at 92.71 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9effe76c-20ca-4655-9a4a-f2f11d09af09")
+		)
+		(instances
+			(project "USB_HS_Isolator"
+				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "my_rcl:C")
 		(at 152.4 49.53 0)
 		(unit 1)
@@ -12079,10 +12648,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "59f86881-17b3-405d-af2b-d77baef25507")
+			(uuid "59f86881-17b3-405d-af2b-d77baef25508")
 		)
 		(pin "2"
-			(uuid "88ef23e4-24c3-446c-b00a-5d0a13297728")
+			(uuid "88ef23e4-24c3-446c-b00a-5d0a13297729")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -12335,7 +12904,7 @@
 	)
 	(symbol
 		(lib_id "my_supply:DGND")
-		(at 99.06 83.82 270)
+		(at 96.52 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12345,7 +12914,7 @@
 		(dnp no)
 		(uuid "ab383359-1630-4b93-bcd6-0fecd4aa9189")
 		(property "Reference" "#PWR016"
-			(at 92.71 83.82 0)
+			(at 90.17 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12356,7 +12925,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 95.25 83.82 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12367,7 +12936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 83.82 0)
+			(at 96.52 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12378,7 +12947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 83.82 0)
+			(at 96.52 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12389,7 +12958,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 83.82 0)
+			(at 96.52 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12400,12 +12969,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "df56853b-1a44-413a-baa3-76b2a83e0ebb")
+			(uuid "df56853b-1a44-413a-baa3-76b2a83e0ebd")
 		)
 		(instances
 			(project "USB_HS_Isolator"
 				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_rcl:C")
+		(at 218.44 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1e37c7e-0184-4ef3-b97d-c9b01ba14cfa")
+		(property "Reference" "C27"
+			(at 218.948 66.548 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 218.948 70.612 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "my_rcl:C_1608"
+			(at 219.4052 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a3331e7-fb23-43b0-83ad-f14bd0f5afe0")
+		)
+		(pin "2"
+			(uuid "bb982d05-f350-48b7-a945-627cd54089f5")
+		)
+		(instances
+			(project "USB_HS_Isolator"
+				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -12478,7 +13128,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0fcb2ba2-b5c4-4f7f-9bfa-a8331e6387c0")
+			(uuid "0fcb2ba2-b5c4-4f7f-9bfa-a8331e6387c1")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -12968,7 +13618,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6896754b-326d-4816-a04c-9f66bd0a7076")
+			(uuid "6896754b-326d-4816-a04c-9f66bd0a7078")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -12981,7 +13631,8 @@
 	)
 	(symbol
 		(lib_id "my_rcl:C")
-		(at 109.22 76.2 180)
+		(at 109.22 76.2 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12991,7 +13642,7 @@
 		(dnp no)
 		(uuid "bdf58daf-b09e-44d2-ab7d-464bf6a6676c")
 		(property "Reference" "C7"
-			(at 108.712 78.232 0)
+			(at 109.728 78.232 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13002,7 +13653,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 108.712 74.168 0)
+			(at 109.728 74.168 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13013,7 +13664,7 @@
 			)
 		)
 		(property "Footprint" "my_rcl:C_1608"
-			(at 108.2548 72.39 0)
+			(at 110.1852 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13137,10 +13788,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a65b1d9f-736b-443d-bdca-733454626b26")
+			(uuid "a65b1d9f-736b-443d-bdca-733454626b27")
 		)
 		(pin "2"
-			(uuid "81f4e5b0-56c0-43e7-92d2-ac58fb609520")
+			(uuid "81f4e5b0-56c0-43e7-92d2-ac58fb609521")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -13218,7 +13869,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "18ceec21-a829-4f50-a834-7ca2b7063b73")
+			(uuid "18ceec21-a829-4f50-a834-7ca2b7063b74")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -13296,12 +13947,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "36c0cbed-805a-4555-ae78-27054b107607")
+			(uuid "36c0cbed-805a-4555-ae78-27054b107608")
 		)
 		(instances
 			(project "USB_HS_Isolator"
 				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_supply:GND")
+		(at 218.44 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca3e2db9-5d84-4d42-be15-b24492fdca34")
+		(property "Reference" "#PWR047"
+			(at 218.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a60f7e1-f1d2-4ee3-98d1-624fbd382926")
+		)
+		(instances
+			(project "USB_HS_Isolator"
+				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13374,12 +14103,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "df5cad67-032c-4c8a-9e54-770380ec4540")
+			(uuid "df5cad67-032c-4c8a-9e54-770380ec4541")
 		)
 		(instances
 			(project "USB_HS_Isolator"
 				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_supply:DGND")
+		(at 71.12 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cebcb6b8-143c-43ab-a57b-42c3773a3bd7")
+		(property "Reference" "#PWR044"
+			(at 71.12 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DGND"
+			(at 71.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_rcl:R_1608J3"
+			(at 71.12 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68eb6675-fa48-49bc-98b9-c6272a5a1f4f")
+		)
+		(instances
+			(project "USB_HS_Isolator"
+				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13452,7 +14259,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "df56853b-1a44-413a-baa3-76b2a83e0ebb")
+			(uuid "df56853b-1a44-413a-baa3-76b2a83e0ebe")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -13464,7 +14271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "my_ic:TPS7A20")
+		(lib_id "my_ic:TAR5SB")
 		(at 210.82 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -13485,7 +14292,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 213.995 59.69 0)
+			(at 214.63 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13618,10 +14425,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e728ab1d-64aa-483b-a783-4af59abf3a2f")
+			(uuid "e728ab1d-64aa-483b-a783-4af59abf3a30")
 		)
 		(pin "2"
-			(uuid "3e0d5466-c235-4369-879d-beab1cada548")
+			(uuid "3e0d5466-c235-4369-879d-beab1cada549")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -13856,7 +14663,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "df5cad67-032c-4c8a-9e54-770380ec4540")
+			(uuid "df5cad67-032c-4c8a-9e54-770380ec4542")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -14018,6 +14825,87 @@
 			(project "USB_HS_Isolator"
 				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_rcl:C")
+		(at 99.06 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e02e10c8-65f8-4eaa-8ce0-429573279f5a")
+		(property "Reference" "C8"
+			(at 101.092 94.488 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 97.028 94.488 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "my_rcl:C_1608"
+			(at 95.25 94.9452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92b161d8-3f8f-41af-ad24-1513112c11ea")
+		)
+		(pin "2"
+			(uuid "145aa8a5-7c8b-4850-ab53-c0c68a374b3b")
+		)
+		(instances
+			(project "USB_HS_Isolator"
+				(path "/35caffb9-9e32-492f-ab7e-b7698376a57c"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -14265,7 +15153,7 @@
 	)
 	(symbol
 		(lib_id "my_supply:+3V3")
-		(at 220.98 63.5 0)
+		(at 223.52 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14275,7 +15163,7 @@
 		(dnp no)
 		(uuid "f4e3efa1-097c-42e5-9f4f-a34539fb61c7")
 		(property "Reference" "#PWR030"
-			(at 220.98 67.31 0)
+			(at 223.52 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14286,7 +15174,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 220.98 59.944 0)
+			(at 223.52 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14296,7 +15184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 63.5 0)
+			(at 223.52 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14307,7 +15195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 63.5 0)
+			(at 223.52 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14318,7 +15206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 220.98 63.5 0)
+			(at 223.52 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14498,7 +15386,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cb44037-ec85-401d-abdf-243470b92150")
+			(uuid "8cb44037-ec85-401d-abdf-243470b92151")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -14574,10 +15462,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ebaffbab-c587-451c-92bf-e2c9829c7a93")
+			(uuid "ebaffbab-c587-451c-92bf-e2c9829c7a94")
 		)
 		(pin "1"
-			(uuid "c46dd925-68fd-4fb2-8fc1-534d178e3525")
+			(uuid "c46dd925-68fd-4fb2-8fc1-534d178e3526")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -14655,7 +15543,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "df56853b-1a44-413a-baa3-76b2a83e0ebb")
+			(uuid "df56853b-1a44-413a-baa3-76b2a83e0ebf")
 		)
 		(instances
 			(project "USB_HS_Isolator"
@@ -14754,13 +15642,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "a626012e-24df-44c2-990a-d1887f3e117b")
+			(uuid "a626012e-24df-44c2-990a-d1887f3e117c")
 		)
 		(pin "3"
-			(uuid "e1db00f3-8ce8-42fc-ae6f-b195a40e01d0")
+			(uuid "e1db00f3-8ce8-42fc-ae6f-b195a40e01d1")
 		)
 		(pin "2"
-			(uuid "43d124fe-7ce1-4717-9b10-0e00b3360360")
+			(uuid "43d124fe-7ce1-4717-9b10-0e00b3360361")
 		)
 		(instances
 			(project "USB_HS_Isolator"

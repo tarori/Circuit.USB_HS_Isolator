@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "track_dangling|116000000|110000000|aa394142-1f52-4f3c-935b-d7d4fe9eb8c5|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -295,6 +300,14 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "pin_to_pin|1117600|1066800|0daf02d5-731a-4ad0-822a-0d28986e3d35|25866e25-9d24-4070-a3a9-10b473765770|/35caffb9-9e32-492f-ab7e-b7698376a57c|/35caffb9-9e32-492f-ab7e-b7698376a57c|/35caffb9-9e32-492f-ab7e-b7698376a57c",
+        ""
+      ],
+      [
+        "pin_to_pin|1117600|889000|8bffaed6-4a60-4d58-8ec5-d78cd9d07aa0|25866e25-9d24-4070-a3a9-10b473765770|/35caffb9-9e32-492f-ab7e-b7698376a57c|/35caffb9-9e32-492f-ab7e-b7698376a57c|/35caffb9-9e32-492f-ab7e-b7698376a57c",
+        ""
+      ],
       [
         "pin_to_pin|1422400|838200|9789b39b-7195-48bb-9964-9425bbb47c6f|ff46ab6f-7d5a-4f39-a7b8-cb0439f9c843|/35caffb9-9e32-492f-ab7e-b7698376a57c|/35caffb9-9e32-492f-ab7e-b7698376a57c|/35caffb9-9e32-492f-ab7e-b7698376a57c",
         ""
@@ -578,7 +591,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerb/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -741,7 +754,7 @@
         "uuid": "35caffb9-9e32-492f-ab7e-b7698376a57c"
       }
     ],
-    "used_designators": "#PWR1-43,T1,CON1-2,C1-26,FB1-3,#FLG1-4,R1-8,IC1-5,JP1-4,D1-4,L1",
+    "used_designators": "#PWR1-47,T1,CON1-2,C1-27,FB1-3,#FLG1-4,R1-8,IC1-6,JP1-4,D1-4,L1",
     "variants": []
   },
   "sheets": [
